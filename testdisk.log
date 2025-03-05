@@ -1,0 +1,47 @@
+
+
+Tue Mar  4 02:50:54 2025
+Command line: TestDisk
+
+TestDisk 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 6.12.9-arch1-1 (#1 SMP PREEMPT_DYNAMIC Fri, 10 Jan 2025 00:39:41 +0000) x86_64
+Compiler: GCC 14.2
+ext2fs lib: 1.47.2, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.5
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop15 - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/loop0 - 4096 B - 8 sectors (RO), sector size=512
+Disk /dev/loop1 - 91 MB / 87 MiB - 179152 sectors (RO), sector size=512
+Disk /dev/loop10 - 69 MB / 66 MiB - 135624 sectors (RO), sector size=512
+Disk /dev/loop11 - 69 MB / 66 MiB - 135624 sectors (RO), sector size=512
+Disk /dev/loop12 - 548 KB / 536 KiB - 1072 sectors (RO), sector size=512
+Disk /dev/loop13 - 548 KB / 536 KiB - 1072 sectors (RO), sector size=512
+Disk /dev/loop14 - 96 MB / 91 MiB - 187776 sectors (RO), sector size=512
+Disk /dev/loop2 - 109 MB / 104 MiB - 213384 sectors (RO), sector size=512
+Disk /dev/loop3 - 58 MB / 55 MiB - 113384 sectors (RO), sector size=512
+Disk /dev/loop4 - 66 MB / 63 MiB - 130448 sectors (RO), sector size=512
+Disk /dev/loop5 - 58 MB / 55 MiB - 113384 sectors (RO), sector size=512
+Disk /dev/loop6 - 331 MB / 316 MiB - 648120 sectors (RO), sector size=512
+Disk /dev/loop7 - 334 MB / 319 MiB - 653696 sectors (RO), sector size=512
+Disk /dev/loop8 - 66 MB / 63 MiB - 130552 sectors (RO), sector size=512
+Disk /dev/loop9 - 172 MB / 164 MiB - 337560 sectors (RO), sector size=512
+Disk /dev/nvme0n1 - 256 GB / 238 GiB - CHS 244198 64 32, sector size=512 - KBG40ZNV256G KIOXIA, S/N:X0BPHRANQ9C2
+
+Partition table type (auto): EFI GPT
+Disk /dev/nvme0n1 - 256 GB / 238 GiB - KBG40ZNV256G KIOXIA
+Partition table type: Intel
+
+Interface Advanced
+Geometry from i386 MBR: head=256 sector=63
+check_part_i386 1 type EE: no test
+ 1 P EFI GPT                  0   0  2 244198  21 16  500118191
+disk_image write() failed: No space left on device
+No space left for the file image.
+disk_image write() failed: No space left on device
+No space left for the file image.
+Change partition type:
+ 1 P EFI GPT                  0   0  2 244198  21 16  500118191
+SIGHUP detected! PhotoRec has been killed.
+SIGHUP detected! PhotoRec has been killed.
